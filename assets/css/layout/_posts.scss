@@ -1,0 +1,48 @@
+.posts{
+	margin-top: 30px;
+	.posts--group{
+		margin-bottom: 100px;
+		&-category{
+			font-size: 2rem;
+			color: $primaryColor;
+			margin-bottom: 35px;
+		}
+		&-more{
+			color: $primaryColor;
+			text-align: center;
+			margin-top: 50px;
+			display: block;
+			font-size: 1.3rem;
+			font-weight: 600;
+		}
+	}
+	&--post{
+		margin-bottom: 40px;
+		&-image{
+			border: solid 1px $primaryColor;
+			border-radius: 5px;
+			img{
+				width: 100%;
+				border-radius: 5px;
+				transform: translate(10px, -10px);
+				transition: transform, 300ms;
+				&:hover{
+					transform: translate(0);
+				}
+			}
+		}
+		h5, a{
+			color: $primaryColor;
+		}
+		h5{
+			margin-top: 10px;
+			margin-bottom: 4px;
+			text-decoration: none;
+			font-size: 1.1rem;
+		}
+		p{
+			color: $secondaryColor;
+			line-height: 1rem;
+		}
+	}
+}

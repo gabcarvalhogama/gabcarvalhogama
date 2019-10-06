@@ -1,0 +1,81 @@
+.contact{
+	margin-top: 100px;
+	h2{
+		font-size: 1.6rem;
+	}
+
+	&--left, &--right{
+		margin-bottom: 20px;
+	}
+
+	&--left{
+		h2{
+			color: $secondaryColor;
+		}
+		ul{
+			li{
+				margin: 10px 0;		
+			}
+			a{
+				color: $primaryColor;
+				font-size: 1.2rem;
+			}
+			span{
+				margin-left: 10px;
+			}
+		}
+	}
+
+	&--right{
+		h2{
+			color: $primaryColor;
+			// text-align: right;
+		}
+		form{
+			margin-top: 10px;
+		}
+		label{
+			color: $secondaryColor;
+			margin-bottom: 0;
+		}
+		.form-control{
+			padding: 23px 14px;
+			background-color: #E0E7F2;
+			outline: none;
+			box-shadow: none;
+		}
+		.form-submit{
+			display: block;
+			width: 100%;
+			border-radius: 50px;
+			padding: 10px;
+			background-color: $primaryColor;
+			color: #fff;
+			border: solid 1px $primaryColor;
+		}
+	
+
+		.custom-switch{
+			padding: 0;
+			padding-top: 10px;
+
+			display: flex;
+			align-items: center;
+			.col-4{
+				text-align: center;
+			}
+			img{
+				height: 20px;
+				display: block;
+				margin: 0 auto;
+			}
+			span{
+				font-size: .7rem;
+				color: $secondaryColor;	
+			}
+			.row{
+				margin: 0;
+			}
+		}
+	}
+}

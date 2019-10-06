@@ -1,0 +1,55 @@
+.single{
+	position: relative;
+	&--thumb{
+		margin: 50px 0;
+		img{
+			width: 100%;
+		}
+	}
+
+	&--share{
+		position: absolute;
+		left: 0%;
+		transform: translateX(-50%);
+		ul{
+
+		}
+		li{
+			display: block;
+			text-align: center;
+		}
+		a{
+			color: $primaryColor;
+			font-size: 2rem;
+		}
+	}
+
+	&--post{
+		padding-left: 40px;
+
+		h1{
+			color: $titleColor;
+			font-size: 2rem;
+		}
+		&-meta{
+			color: $secondaryColor;
+			i.fas{
+				margin-right: 5px;
+			}
+			strong{
+				font-weight: 500;
+				color: darken($secondaryColor, 30);
+			}
+		}
+
+		&-content{
+			margin-top: 25px;
+			color: darken($secondaryColor, 30);
+			font-size: 1.27rem;
+		}
+
+		&-comments{
+			margin-top: 100px;
+		}
+	}
+}

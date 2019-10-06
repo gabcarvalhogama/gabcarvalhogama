@@ -1,0 +1,42 @@
+.e404{
+	min-height: auto;
+	padding-top: 50px;
+	text-align: center;
+	&--highlight{
+		img{
+			height: 300px;
+			display: block;
+			margin: 0 auto;
+			animation: float 3s cubic-bezier(.1,.1,.88,.88) infinite;
+		}
+		a{
+			font-size: .7rem;
+			color: $secondaryColor;
+		}
+	}
+	h1{
+		color: $primaryColor;
+		font-size: 1.6rem;
+	}	
+	h2{
+		color: $secondaryColor;
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+
+
+	.menu{
+		li{
+			a{
+				display: block;
+				padding: 10px 20px;
+				color: $primaryColor;
+				font-size: 1rem;
+				font-weight: 500;
+				&:first-child{
+					padding-left: 0;
+				}
+			}
+		}
+	}
+}

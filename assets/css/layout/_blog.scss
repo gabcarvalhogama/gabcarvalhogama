@@ -1,0 +1,57 @@
+.blog{
+	min-height: auto;
+	height: auto;
+	padding-bottom: 30px;
+	.row{
+		align-items: center;
+		@include media-breakpoint-down(md){
+	    	flex-direction: column-reverse;
+	    	padding-bottom: 50px;
+	    }
+	}
+	h2{
+		color: $primaryColor;
+		font-size: 1.6rem;
+		margin-bottom: 0;
+		font-weight: 600;
+	}
+	h3{
+		color: $secondaryColor;
+		font-size: 1.2rem;
+	}
+
+	.signNewsletter{
+		padding-right: 50px;
+		margin-top: 20px;
+		.form-group{
+			display: flex;
+			flex-direction: row;
+		}
+		.input-field, .input-submit{
+			border: solid 1px #ABABAB;
+			height: 45px;
+		}
+		.input-field{
+			border-radius: 25px 0 0 25px;
+			padding: 10px 15px;
+			flex: 1;
+		}
+		.input-submit{
+			border-radius: 0 25px 25px 0;
+			background-color: #FFF;
+			padding: 0;
+			line-height: 41px;
+			margin-left: -2px;
+		}
+	}
+
+	&--highlight{
+		text-align: center;
+		@include media-breakpoint-down(md){
+			margin-bottom: 20px;
+		}
+		img{
+			animation: float 3s cubic-bezier(.1,.1,.88,.88) infinite;
+		}
+	}
+}
