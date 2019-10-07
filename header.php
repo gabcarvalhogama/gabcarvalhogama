@@ -23,6 +23,7 @@
 		
 	   	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="<?=bloginfo("template_url")?>/assets/css/styles.css" type="text/css" />
+	    <meta name="theme-color" content="#839ECB" />
 	</head>
 	<body>
 
