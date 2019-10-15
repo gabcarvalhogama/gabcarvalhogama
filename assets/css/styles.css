@@ -15718,6 +15718,7 @@ header.default .header--menu a:hover:after {
 .single--post-content img {
   max-width: 70% !important;
   margin: 20px auto;
+  display: block;
 }
 .single--post-comments {
   margin-top: 100px;
