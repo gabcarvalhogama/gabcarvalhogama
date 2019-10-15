@@ -5,6 +5,53 @@
 
 	add_theme_support( 'post-thumbnails');
 
+
+
+
+
+	function opengraph_tags() {
+        // defaults
+        $title = get_bloginfo('title');
+        $img_src = get_stylesheet_directory_uri() . '/assets/images/default-opengraph.jpg';
+        $excerpt = get_bloginfo('description');
+        // for non posts/pages, like /blog, just use the current URL
+        $permalink = "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+
+        if(is_single() || is_page()) {
+
+            global $post;
+            setup_postdata( $post );
+
+            $title = get_the_title();
+            $permalink = get_the_permalink();
+
+            if (has_post_thumbnail($post->ID)) {
+                $img_src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large')[0];
+            }
+
+            $excerpt = get_the_excerpt();
+
+            if ($excerpt) {
+                $excerpt = strip_tags($excerpt);
+                $excerpt = str_replace("", "'", $excerpt);
+            }
+        }
+        echo '<meta property="fb:app_id" content="768541876932707" />
+        <meta property="og:title" content="'.$title.'"/>
+        <meta property="og:description" content="'.$excerpt.'"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="'.$permalink.'"/>
+        <meta property="og:site_name" content="'.get_bloginfo().'"/>
+        <meta property="og:image" content="'.$img_src.'"/>';
+    }
+
+
+
+
+
+
+
+
 	$submitted = $_POST["submitted"];
 	$name = $_POST["name"];
 	$email = $_POST["email"];
