@@ -32,8 +32,9 @@
 			font-size: 2rem;
 		}
 		h2{
-			margin-top: 20px;
-			font-size: 1.4rem;
+			margin-top: 60px;
+		    font-size: 1.9rem;
+		    font-weight: bold;
 		}
 		&-meta{
 			color: $secondaryColor;
@@ -50,6 +51,10 @@
 			margin-top: 25px;
 			color: darken($secondaryColor, 30);
 			font-size: 1.27rem;
+			img{
+				max-width: 70%;
+				margin: 20px auto;
+			}
 		}
 
 		&-comments{
