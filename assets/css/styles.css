@@ -15716,7 +15716,7 @@ header.default .header--menu a:hover:after {
   font-size: 1.27rem;
 }
 .single--post-content img {
-  max-width: 70%;
+  max-width: 70% !important;
   margin: 20px auto;
 }
 .single--post-comments {

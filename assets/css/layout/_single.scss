@@ -52,7 +52,7 @@
 			color: darken($secondaryColor, 30);
 			font-size: 1.27rem;
 			img{
-				max-width: 70%;
+				max-width: 70% !important;
 				margin: 20px auto;
 			}
 		}
