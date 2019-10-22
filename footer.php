@@ -25,6 +25,6 @@
 
   gtag('config', 'UA-143331941-4');
 </script>
-
+	<?php wp_footer(); ?>
 </body>
 </html>
