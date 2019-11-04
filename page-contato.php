@@ -22,7 +22,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/gabriel.carvalhogama/" target="_blank">
+					<a href="https://www.instagram.com/gabrielgamadev/" target="_blank">
 						<img src="<?=bloginfo("template_url")?>/assets/images/ic_instagram_filled.svg" alt="Ícone de E-mail"><span>@gabriel.carvalhogama</span>
 					</a>
 				</li>
