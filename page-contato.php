@@ -17,8 +17,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/gabrielcgama" target="_blank">
-						<img src="<?=bloginfo("template_url")?>/assets/images/ic_facebook_filled.svg" alt="Ícone de E-mail"><span>/gabrielcgama</span>
+					<a href="https://www.facebook.com/gabrielgamadev" target="_blank">
+						<img src="<?=bloginfo("template_url")?>/assets/images/ic_facebook_filled.svg" alt="Ícone de E-mail"><span>/gabrielgamadev</span>
 					</a>
 				</li>
 				<li>
