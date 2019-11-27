@@ -36,7 +36,7 @@
 	
 
 		<?php 
-			$categories = ['HTML', 'CSS', 'JS', 'BACK-END', 'MOBILE'];
+			$categories = ['Carreira', 'HTML', 'CSS', 'JS', 'BACK-END', 'MOBILE'];
 			foreach($categories as $category):
 		?>
 		<div class="posts--group">
