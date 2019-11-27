@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="<?=bloginfo("template_url")?>/assets/css/styles.css" type="text/css" />
 	    <meta name="theme-color" content="#839ECB" />
 		
-		<?php opengraph_tags(); ?>
+		<!-- <?php opengraph_tags(); ?> -->
 	    <?php wp_head(); ?>
 
 	    <script data-ad-client="ca-pub-9537443525996757" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
