@@ -7,8 +7,8 @@
 			<h2>Entre em contato comigo...</h2>
 			<ul class="default-ul">
 				<li>
-					<a href="mailto:eu@gabrielgamadev.com.br"v>
-						<img src="<?=bloginfo("template_url")?>/assets/images/ic_email_filled.svg" alt="Ícone de E-mail"><span>eu@gabrielgamadev.com.br</span>
+					<a href="mailto:gabriel.carvalho@hatoria.com.br"v>
+						<img src="<?=bloginfo("template_url")?>/assets/images/ic_email_filled.svg" alt="Ícone de E-mail"><span>gabriel.carvalho@hatoria.com.br</span>
 					</a>
 				</li>
 				<li>

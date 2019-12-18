@@ -15,7 +15,7 @@
 					<li><a target="_blank" href="https://facebook.com/gabrielgamadev"><i class="fab fa-facebook-f"></i></a></li>
 					<li><a target="_blank" href="https://instagram.com/gabrielgamadev"><i class="fab fa-instagram"></i></a></li>
 					<li><a target="_blank" href="https://github.com/gabrielcarvalhogama"><i class="fab fa-github"></i></a></li>
-					<li><a target="_blank" href="mailto:eu@gabrielgamadev.com.br"><i class="far fa-envelope"></i></a></li>
+					<li><a target="_blank" href="mailto:gabriel.carvalho@hatoria.com.br"><i class="far fa-envelope"></i></a></li>
 				</ul>
 			</div>
 		</div>
