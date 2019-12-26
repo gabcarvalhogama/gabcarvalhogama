@@ -15730,15 +15730,22 @@ header.default .header--menu a:hover:after {
   display: block;
 }
 .single--post-comments {
-  margin-top: 100px;
+  margin-top: 30px;
+}
+.single--post-share {
+  margin-top: 30px;
 }
 .single--post-share li {
   display: inline-block;
   text-align: center;
+  margin: 20px;
+}
+.single--post-share li:first-child {
+  margin-left: 0;
 }
 .single--post-share a {
   color: #839ECB;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .portfolio {
