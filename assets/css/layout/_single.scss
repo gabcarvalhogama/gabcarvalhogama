@@ -7,25 +7,10 @@
 		}
 	}
 
-	&--share{
-		position: absolute;
-		left: 0%;
-		transform: translateX(-50%);
-		ul{
-
-		}
-		li{
-			display: block;
-			text-align: center;
-		}
-		a{
-			color: $primaryColor;
-			font-size: 2rem;
-		}
-	}
 
 	&--post{
 		padding-left: 40px;
+		max-width: 680px;
 
 		h1{
 			color: $titleColor;
@@ -61,6 +46,19 @@
 
 		&-comments{
 			margin-top: 100px;
+		}
+		&-share{
+			ul{
+
+			}
+			li{
+				display: inline-block;
+				text-align: center;
+			}
+			a{
+				color: $primaryColor;
+				font-size: 2rem;
+			}
 		}
 	}
 }
