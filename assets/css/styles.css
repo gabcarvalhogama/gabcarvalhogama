@@ -15671,7 +15671,7 @@ header.default .header--menu a:hover:after {
 }
 .single--thumb {
   margin: 50px 0;
-  margin-top: 20px;
+  margin-top: 0;
 }
 .single--thumb img {
   width: 100%;
@@ -15703,8 +15703,20 @@ header.default .header--menu a:hover:after {
 .single--post-content {
   margin-top: 25px;
   color: #5f5f5f;
-  font-size: 1.08rem;
+  font-size: 21px;
   max-width: 960px;
+}
+@media (max-width: 991.98px) {
+  .single--post-content {
+    font-size: 17.5px;
+  }
+}
+.single--post-content p {
+  margin-bottom: -0.46em;
+  margin-top: 2em;
+}
+.single--post-content p:first-child {
+  margin-top: 0.86em;
 }
 .single--post-content img {
   max-width: 70% !important;
