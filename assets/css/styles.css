@@ -15718,6 +15718,9 @@ header.default .header--menu a:hover:after {
 .single--post-content p:first-child {
   margin-top: 0.86em;
 }
+.single--post-content ul, .single--post-content ol {
+  margin: 2rem 0;
+}
 .single--post-content img {
   max-width: 70% !important;
   margin: 20px auto;
