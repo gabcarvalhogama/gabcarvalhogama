@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="container single">
+<main class="single">
 	<div class="single--thumb">
 		<img src="<?=( has_post_thumbnail() ) ? get_the_post_thumbnail_url() : bloginfo('template_url').'/assets/images/post-placeholder.png';?>" alt="Imagem de destaque de: <?=the_title()?>">
 	</div>

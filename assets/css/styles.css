@@ -15671,6 +15671,7 @@ header.default .header--menu a:hover:after {
 }
 .single--thumb {
   margin: 50px 0;
+  margin-top: 20px;
 }
 .single--thumb img {
   width: 100%;
@@ -15678,6 +15679,7 @@ header.default .header--menu a:hover:after {
 .single--post {
   padding-left: 40px;
   max-width: 680px;
+  margin: 0 auto;
 }
 .single--post h1 {
   color: #333333;
@@ -15689,14 +15691,14 @@ header.default .header--menu a:hover:after {
   font-weight: bold;
 }
 .single--post-meta {
-  color: #ABABAB;
+  color: rgba(0, 0, 0, 0.84);
 }
 .single--post-meta i.fas {
   margin-right: 5px;
 }
 .single--post-meta strong {
   font-weight: 500;
-  color: #5f5f5f;
+  color: rgba(0, 0, 0, 0.84);
 }
 .single--post-content {
   margin-top: 25px;

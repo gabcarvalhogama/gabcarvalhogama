@@ -2,6 +2,7 @@
 	position: relative;
 	&--thumb{
 		margin: 50px 0;
+		margin-top: 20px;
 		img{
 			width: 100%;
 		}
@@ -11,6 +12,7 @@
 	&--post{
 		padding-left: 40px;
 		max-width: 680px;
+		margin: 0 auto;
 
 		h1{
 			color: $titleColor;
@@ -22,13 +24,13 @@
 		    font-weight: bold;
 		}
 		&-meta{
-			color: $secondaryColor;
+			color: rgba(0, 0, 0, 0.84);
 			i.fas{
 				margin-right: 5px;
 			}
 			strong{
 				font-weight: 500;
-				color: darken($secondaryColor, 30);
+				color: darken(rgba(0, 0, 0, 0.84), 30);
 			}
 		}
 
