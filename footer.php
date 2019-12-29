@@ -8,8 +8,9 @@
 	</div>
 	<div class="footer--social">
 		<ul class="default-ul inline-ul">
-			<li><a target="_blank" href="https://facebook.com/gabrielgamadev"><i class="fab fa-facebook-f"></i></a></li>
-			<li><a target="_blank" href="https://instagram.com/gabrielgamadev"><i class="fab fa-instagram"></i></a></li>
+			<li><a target="_blank" href="https://www.facebook.com/gabrielcgama"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a target="_blank" href="https://www.instagram.com/gabriel.carvalhogama/"><i class="fab fa-instagram"></i></a></li>
+			<li><a target="_blank" href="https://twitter.com/gabcarvalhogama"><i class="fab fa-twitter"></i></a></li>
 			<li><a target="_blank" href="https://github.com/gabrielcarvalhogama"><i class="fab fa-github"></i></a></li>
 			<li><a target="_blank" href="mailto:gabriel.carvalho@hatoria.com.br"><i class="far fa-envelope"></i></a></li>
 		</ul>
