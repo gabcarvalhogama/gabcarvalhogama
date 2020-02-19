@@ -25,5 +25,12 @@ a{
 
 
 blockquote{
+	padding: 20px;
+    font-size: 1.6rem;
+    border-left: solid 3px $primaryColor;
+    margin: 30px 0;
 
+    p:first-child{
+		margin-top: 0;
+    }
 }

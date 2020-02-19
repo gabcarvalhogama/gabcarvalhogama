@@ -15425,6 +15425,16 @@ a {
   color: #839ECB;
 }
 
+blockquote {
+  padding: 20px;
+  font-size: 1.6rem;
+  border-left: solid 3px #839ECB;
+  margin: 30px 0;
+}
+blockquote p:first-child {
+  margin-top: 0;
+}
+
 header.default .container {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -15674,10 +15684,10 @@ header.default .header--menu a:hover:after {
   position: relative;
 }
 .single--thumb {
-  margin: 0 auto;
-  margin: 50px 0;
-  margin-top: 0;
   max-width: 680px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .single--thumb img {
   width: 100%;
@@ -15686,6 +15696,11 @@ header.default .header--menu a:hover:after {
   padding-left: 40px;
   max-width: 680px;
   margin: 0 auto;
+}
+.single--post hr {
+  width: 50%;
+  display: block;
+  margin: 60px auto;
 }
 .single--post h1 {
   color: #333333;
