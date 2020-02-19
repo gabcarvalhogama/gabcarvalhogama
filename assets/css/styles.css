@@ -15421,6 +15421,10 @@ main {
   display: inline-block;
 }
 
+a {
+  color: #839ECB;
+}
+
 header.default .container {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -15670,8 +15674,10 @@ header.default .header--menu a:hover:after {
   position: relative;
 }
 .single--thumb {
+  margin: 0 auto;
   margin: 50px 0;
   margin-top: 0;
+  max-width: 680px;
 }
 .single--thumb img {
   width: 100%;
