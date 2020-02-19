@@ -26,11 +26,11 @@ a{
 
 blockquote{
 	padding: 20px;
-    font-size: 1.6rem;
-    border-left: solid 3px $primaryColor;
+    font-size: 1.4rem;
+    border-left: solid 5px $primaryColor;
     margin: 30px 0;
 
     p:first-child{
-		margin-top: 0;
+		margin-top: 0 !important;
     }
 }

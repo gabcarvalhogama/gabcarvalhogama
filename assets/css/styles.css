@@ -15427,12 +15427,12 @@ a {
 
 blockquote {
   padding: 20px;
-  font-size: 1.6rem;
-  border-left: solid 3px #839ECB;
+  font-size: 1.4rem;
+  border-left: solid 5px #839ECB;
   margin: 30px 0;
 }
 blockquote p:first-child {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 header.default .container {
